@@ -1,2 +1,2 @@
-# webpack-template
-Template with webpack and eslint and prettier.
+# Weather App
+JavaScript weather app using WeatherAPI.
