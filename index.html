@@ -1,13 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
-    
+
+    <div class="app">
+        <h1>Weather!</h1>
+
+        <div class="form">
+            <label for="city">Enter Your City:</label>
+            <input type="text" name="city" class="city">
+            <button class="search">Search</button>
+        </div>
+
+        <div class="dayCards">
+            <div class="first-day card">
+
+                <img src="#" alt="" class="day1-weatherIcon">
+
+                <div class="day1-date"></div>
+
+                <div class="day1-desc"></div>
+
+                <div class="day1-temp"></div>
+
+            </div>
+
+            <div class="second-day card">
+
+                <img src="#" alt="" class="day2-weatherIcon">
+
+                <div class="day2-date"></div>
+
+                <div class="day2-desc"></div>
+
+                <div class="day2-temp">
+
+                </div>
+            </div>
+
+            <div class="third-day card">
+
+                <img src="#" alt="" class="day3-weatherIcon">
+
+                <div class="day3-date"></div>
+
+                <div class="day3-desc"></div>
+
+                <div class="day3-temp"></div>
+
+            </div>
+        </div>
+
+        <div class="switchDiv">
+            C
+            <label class="switch">
+                <input type="checkbox">
+                <span class="slider round"></span>
+            </label>
+            F
+        </div>
+    </div>
 
     <script src="main.js"></script>
 </body>
+
 </html>
