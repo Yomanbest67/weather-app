@@ -8,6 +8,7 @@ Can be seen [here](https://yomanbest67.github.io/weather-app/)
 - JavaScript
 - CSS (Flexbox)
 - Webpack
+- API Calls (WeatherApi)
 - ES6 Modules
 - npm
 - ESLint
